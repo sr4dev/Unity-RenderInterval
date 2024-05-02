@@ -3,6 +3,9 @@ Adjusting Camera Update Interval Using Renderer Feature of URP.
 
 ![May-02-2024 12-34-45](https://github.com/sr4dev/Unity-RenderInterval/assets/9159336/7ca0d2c7-1e7c-4f0e-94c1-0dd3bc9822fd)
 
+This sample project is developed to assist in creating smooth UI while the world is rendered at a low FPS for cinematic effects. It is not developed with the intention of reducing rendering frequency, so there are no performance benefits to using RenderInterval. If the sole purpose is to reduce rendering frequency regardless of the world and UI, please refer to the documentation below.
+https://docs.unity3d.com/ScriptReference/Rendering.OnDemandRendering-renderFrameInterval.html
+
 ## How to use
 
 - Add RenderInterval to the Renderer Feature.
