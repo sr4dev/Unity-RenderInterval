@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class RandomObjectMaker : MonoBehaviour
+public class WorldObjectUpdate : MonoBehaviour
 {
     public SpriteRenderer sample;
     public int count;
@@ -37,7 +37,6 @@ public class RandomObjectMaker : MonoBehaviour
             pos.x += Mathf.Sin(Time.time * randomObject.movementSpeed) * Time.deltaTime;
             pos.y += Mathf.Cos(Time.time * randomObject.movementSpeed) * Time.deltaTime;
             randomObject.go.transform.position = pos;
-            
         }
     }
     
