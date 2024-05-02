@@ -12,8 +12,7 @@ https://docs.unity3d.com/ScriptReference/Rendering.OnDemandRendering-renderFrame
 - Set up FPS and add a dedicated material for RenderInterval using shaders.
   (If the shader is not properly configured, the screen may not render correctly in the Metal API)
 
-<img width="512" alt="image" src="https://github.com/sr4dev/Unity-RenderInterval/assets/9159336/0aad4fa1-3852-471c-8869-deb2e82a7a01">
-
+<img width="518" alt="image" src="https://github.com/sr4dev/Unity-RenderInterval/assets/9159336/bbcf5e46-16fd-45cb-b047-c8b181bbc282">
 
 ## Note
 Anti-aliasing is not supported. Anti-aliasing for the camera must be set to 'No Anti-aliasing' without exception.
