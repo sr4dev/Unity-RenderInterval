@@ -74,5 +74,5 @@ MonoBehaviour:
   m_Name: RenderInterval
   m_EditorClassIdentifier: 
   m_Active: 1
-  _fps: 24
+  _fps: 5
   _material: {fileID: 2100000, guid: 5895ede884a7147db96e8f6adc18a3db, type: 2}
